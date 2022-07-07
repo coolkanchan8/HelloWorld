@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'TryApp101'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FE1CEBF4C2944971A14A15F4B0AACAD2 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_96B9D76E7F2E42B9859056015846A40E }}
           package: '*.war'
